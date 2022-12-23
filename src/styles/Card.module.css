@@ -1,0 +1,29 @@
+.general p {
+	color: black;
+}
+.general{
+	margin: 0 auto;
+	background-color: whitesmoke;
+	width: 350px;
+	height: 650px;
+	border-radius: 10px;
+}
+.button{
+	position: relative;
+	left: 42%;
+	background-color: red;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	margin: 10px;
+	width: 33px;
+	height: 33px;
+}
+.content{
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	justify-content: space-between;
+	margin-right: 15px;
+	margin-left: 35px;
+}

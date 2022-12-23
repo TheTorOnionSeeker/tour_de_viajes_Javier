@@ -1,0 +1,16 @@
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    margin-right: 35px;
+	margin-left: 35px;
+}
+.img{
+    width: 400px;
+    height: 358px;
+}
+.video {
+    width: 400px;
+    height: 358px;
+}
