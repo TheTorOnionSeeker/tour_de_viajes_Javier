@@ -1,6 +1,14 @@
 .App {
   text-align: center;
   background-color: gray;
+  /* display: grid;
+  grid-template-columns: repeat(
+  auto-fit,
+  minmax(150px,1fr)
+  );
+  gap: 16px; */
+  width: auto;
+  height: auto;
 }
 p {
   color: aliceblue;

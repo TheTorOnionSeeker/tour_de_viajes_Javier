@@ -1,13 +1,16 @@
 .search{
-
 	margin-bottom: 10px;
 	display: flex;
-	justify-content: flex-start;
+	flex-wrap: wrap;
+	/* justify-content: flex-start; */
 	background-color: grey;
 	border-color: #2f3742;
 	padding: 5px;
-	width: 31%;
-	margin-left: 45px;
+	/* width: 31%;
+	margin-left: 45px; */
+	width: auto;
+	margin-left: auto;
+	margin-right: 30px;
 }
 
 .button{
@@ -21,6 +24,13 @@
 .input{
 	/*position: relative;
 	right: 5%;*/
+	width: auto;
+	height: auto;
 	border: none;
 	border-radius: 5px;
+	margin-right: auto;
+}
+
+@media (max-width:435px){
+	.input{width: 60%;}
 }

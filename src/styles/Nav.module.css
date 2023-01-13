@@ -1,9 +1,16 @@
 .navBar{
 	display: flex;
+	flex-wrap: wrap;
+	/* display: grid;
+  	grid-template-columns: repeat(
+  	auto-fit,
+  	minmax(150px,1fr)
+  	);
+  	gap: 16px; */
 	justify-content: space-between;
 	background-color: grey;
-	width: 100%;
-	height: 50px;
+	width: auto;
+	height: auto;
 }
 .nav label{
 	justify-content: space-between;
@@ -13,4 +20,12 @@
 .nav{
 	padding: auto;
 	margin-top: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	/* display: grid;
+  	grid-template-columns: repeat(
+  	auto-fit,
+  	minmax(150px,1fr)
+  	);
+  	gap: 16px; */
 }
